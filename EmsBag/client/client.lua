@@ -1,4 +1,4 @@
-local RSGCore = exports['qr-core']:GetCoreObject()
+local RSGCore = exports['rsg-core']:GetCoreObject()
 
 local ObjectList = {}
 
@@ -57,6 +57,6 @@ local AmbulanceBags = {
     `p_bag01x`,
 }
 
-exports['qr-target']:AddTargetModel(AmbulanceBags, {
+exports['rsg-target']:AddTargetModel(AmbulanceBags, {
     options = {{event   = "EmsBag:Client:MenuAmbulanceBag",icon    = "fa-solid fa-suitcase-medical",label   = "Ems Bag"},
     {event   = "EmsBag:Client:GuardarAmbulanceBag",icon    = "fa-solid fa-suitcase-medical",label   = "Take Back Ems Bag"},},distance = 2.0 })
