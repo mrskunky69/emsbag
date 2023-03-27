@@ -51,7 +51,7 @@ RegisterNetEvent('EmsBag:Client:MenuAmbulanceBag', function()
         { header = "[💉] Take Firstaid ",  params = { event = "EmsBag:Client:Givefirstaid" } },
 
         -- You can add more menus with your's personal events...
-        { header = "", txt = "❌ Close", params = { event = "qr-menu:closeMenu" } },
+        { header = "", txt = "❌ Close", params = { event = "rsg-menu:closeMenu" } },
     })
 end)
 
