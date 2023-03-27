@@ -23,9 +23,6 @@ escrow_ignore {
     "README.lua"
 }
 
-files {
-    'stream/prop_cs_shopping_bag.ydr'
-}
 
 dependencies {
     'rsg-core',
